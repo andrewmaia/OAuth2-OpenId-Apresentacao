@@ -1,0 +1,9 @@
+﻿@using MvcClient2.Controllers
+@model IEnumerable<Contato>
+
+    Contatos:
+    <ul>
+    @foreach(var contato in Model) {
+        <li>Nome: @contato.nome - Telefone: @contato.telefone </li>
+    }   
+    </ul>
