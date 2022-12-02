@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "API\Api.csproj", "{2FDEEC91-1ACB-4014-8397-D01D5699FFF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceServer", "API\ResourceServer.csproj", "{2FDEEC91-1ACB-4014-8397-D01D5699FFF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{92A9020C-0209-48CB-A0D2-E2A20B95C600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationServer", "IdentityServer\AuthorizationServer.csproj", "{92A9020C-0209-48CB-A0D2-E2A20B95C600}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcClient.csproj", "{87753B29-37FC-4106-B408-26E0B14CCDA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "MvcClient\Client.csproj", "{87753B29-37FC-4106-B408-26E0B14CCDA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
