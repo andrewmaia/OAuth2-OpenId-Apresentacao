@@ -1,0 +1,16 @@
+﻿@using Microsoft.AspNetCore.Authentication
+
+@{
+    ViewData["Title"] = "Private Page";
+}
+
+Olá @User.Claims.FirstOrDefault(x=>x.Type=="name").Value
+<br />
+<dl>
+    <dt>Id Token</dt>
+    <dd>@Context.AuthenticateAsync().Result.Properties.Items.FirstOrDefault(x=>x.Key==".Token.id_token").Value</dd>
+    <dt>Access Token</dt>
+    <dd>@Context.AuthenticateAsync().Result.Properties.Items.FirstOrDefault(x=>x.Key==".Token.access_token").Value</dd>
+</dl>
+
+
